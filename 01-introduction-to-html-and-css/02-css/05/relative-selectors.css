@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section p {
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+.highlighted + article p {
+    background-color: pink;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+ul > li {
+    color: black;
+}
+
+li:nth-child(2) {
+    color: coral;
+}
+
+.nested a {
+    text-decoration: none;
+    color: navy;
+}
+
+
+li:last-child a {
+    color: green;
+}
+
+h2 ~ p {
+    color: fuchsia;
+}
+
+

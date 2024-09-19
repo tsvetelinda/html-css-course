@@ -1,6 +1,4 @@
 # CSS Box Model and Typography
-#### Disclaimer
-_Most of the information presented in this document is based on the lectures and materials provided by SoftUni. However, I have enriched and expanded upon the content with additional explanations and insights._
 
 ## CSS Basic Box Model
 * When laying out a document, the browser's rendering engine represents each element as a `rectangular box`, according to the `standard CSS basic box model`.

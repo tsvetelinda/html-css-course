@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: navy;
+}
+
+.highlight {
+    background-color: lightblue;
+}
+
+#main-title {
+    color: darkblue;
+}
+
+#special-paragraph {
+    font-style: italic;
+}

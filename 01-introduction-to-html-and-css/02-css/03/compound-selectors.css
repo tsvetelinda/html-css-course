@@ -1,0 +1,32 @@
+* {
+    font-size: 16px;
+}
+
+div.special {
+    background-color: orange;
+    box-shadow: 0px 2px 6px #a09e9e;
+}
+
+p.highlight {
+    font-size: 20px;
+    color: blue;
+}
+
+li:nth-child(1) {
+    color: teal;
+}
+
+li:nth-child(3) {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a.fancy {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.shadow {
+    text-shadow: 0.5px 0.5px 1px #000000;
+}

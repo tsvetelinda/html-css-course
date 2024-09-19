@@ -1,0 +1,18 @@
+img {
+    height: 400px;
+    width: 250px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.post-content section {
+    border-bottom: 2px solid #EC4E20;
+}
+
+.post-comments {
+    border: 1px solid orange;
+    margin-top: 20px;
+    padding-left: 10px;
+}
