@@ -1,5 +1,15 @@
 # CSS Box Model and Typography
 
+In this folder, you'll find the notes I've taken while studying the topic (primarily based on SoftUni lectures). I've enriched the content and organized it in a simple yet clear manner for easy understanding. You'll also find a collection of exercises related to each lecture topic. The solutions are my own, while the exercise descriptions remain the property of SoftUni.
+
+Each folder contains:
+* HTML and CSS files with the solution to the exercises.
+* A screenshot of the expected result for visual reference.
+* A .txt file with the text used in the exercises, in case you'd like to try them out yourself.
+
+Feel free to explore the material, whether for learning or practicing!
+<hr>
+
 ## CSS Basic Box Model
 * When laying out a document, the browser's rendering engine represents each element as a `rectangular box`, according to the `standard CSS basic box model`.
 * CSS determines the size, position, and properties of these boxes.
@@ -35,7 +45,9 @@
 * **by default**, the width sets `the size of the content area` (excluding padding and border).
 * If `box-sizing: border-box;` is applied, **the width includes the padding and border along with the content**, so the total element's width will not exceed the value specified by width.
 * `fixed width` -> pixels / em / rem
-* `relative width` -> percentage (relative to the parent's width)
+* `relative width`
+    * percentage (relative to the parent's width)
+    * viewport = vh (viewport height) or vw (viewport width): 50vh = 50% of the viewport height = 50% of the height of the user's browser window
 * by default, the width will remain 100% and the padding and border will push inwards (if the box has static or relative positioning, and if we haven't declared the width explicitly).
 * if you explicitly set the width of the box to be 100%, the padding will push the box outward.
 * `auto` = autocalculated width = 100%
@@ -74,6 +86,7 @@
 * `padding: top&bottom left&right`
 * defines the space `inside` the element
 * `padding: 50px;` - defines a padding of 50px on all `four sides` of the element
+* `padding: 5%;` - the percentage is based on the width of the element.
 
 ### Border
 * sets an element's border
@@ -110,6 +123,13 @@ html {
 }
 ```
 
+* If we apply more than one CSS file to the same HTML file, we should pay attention to the order of linking:
+```
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./typography.css">
+```
+* We should place the `reset.css` file first to ensure that it resets all styles before applying the custom styles in `typography.css`.
+
 ## Typography
 ### Choosing a comfortable measure
 * `measure` = the number of characters in a single line of a column of text.
@@ -118,6 +138,7 @@ html {
 * for multiple column work - 40-50 characters.
 * `line-height` = the property which is used to define the space between the lines.
 * `font-family` = a set of fonts, that share common design features.
+* `font-variant: small-caps;` = the lowercase letters are displayed as uppercase letters but at a smaller size than the normal uppercase letters.
 ### Generic Font Families
 * `serif`
 * `sans-serif`
@@ -158,12 +179,20 @@ html {
 * a hybrid of relative and fixed. The element is treated as relative until it reaches a specified point (using top, bottom, left, or right), and then it becomes fixed.
 * the element will "stick" to the top, bottom, left, or right of its nearest scrollable ancestor when the user scrolls past it.
 * it only works within its containing block (e.g., a parent with overflow properties). The element’s position can be modified using top, bottom, left, and right, but only after it reaches the "sticky" point.
+* `overflow: auto;` - automatically adds a scroll element, if the text is longer than the container.
 
 ### `z-index`
 * sets the z-order of a positioned element and its descendants
 * overlapping elements with a larger z-index cover those with a smaller one.
 * default value: auto, meaning that it is defined by the order in the HTML code.
 * negative values can be used too, and as a result, the target element will be moved behind its siblings
+
+### Additional Insights Gained from Completing the Exercises 
+* The `<hr>` tag defines a thematic break in an HTML page (e.g. a shift of topic). It is most often displayed as a horizontal line that is used to separate content.
+* `border-collapse: collapse;` property ensures that borders between cells are shared, when it is applied to the `table` element.
+* `tr:nth-child(even)` targets the even-numbered rows in a table (2nd, 4th, 6th, etc.)
+* `tr:nth-child(odd)` targets the odd-numbered rows in a table (1st, 3rd, 5th, etc.)
+* `type="text/css"` - it's not necessary to include this as an attribute in the `<link>` element in the HTML file, as browsers assume the correct MIME type for CSS by default. 
 
 
 

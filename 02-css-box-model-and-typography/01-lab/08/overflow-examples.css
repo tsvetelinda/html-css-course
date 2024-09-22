@@ -1,0 +1,18 @@
+div {
+    border: 2px solid #000;
+    padding: 10px;
+    max-width: 25vw;
+    max-height: 15vh;
+}
+
+div.visible {
+    overflow: visible;
+}
+
+div.hidden {
+    overflow: hidden;
+}
+
+div.scroll {
+    overflow: scroll;
+}
