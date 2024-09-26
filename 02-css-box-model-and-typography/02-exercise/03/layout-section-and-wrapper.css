@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    border: 2px solid green;
+    padding: 30px;
+}
+
+body section {
+    border: 2px solid black;
+    padding: 40px 100px;
+    margin-bottom: 30px;
+}
+
+body section div {
+    border: 2px solid blue;
+    padding: 20px 30px;
+    margin: 0px auto;
+    font-family: arial;
+    font-weight: bold;
+}

@@ -1,5 +1,15 @@
 # Introduction to HTML & CSS
 
+In this folder, you'll find the notes I've taken while studying the topic (primarily based on SoftUni lectures). I've enriched the content and organized it in a simple yet clear manner for easy understanding. You'll also find a collection of exercises related to each lecture topic. The solutions are my own, while the exercise descriptions remain the property of SoftUni.
+
+Each folder contains:
+* HTML and CSS files with the solution to the exercises.
+* A screenshot of the expected result for visual reference.
+* A .txt file with the text used in the exercises, in case you'd like to try them out yourself.
+
+Feel free to explore the material, whether for learning or practicing!
+<hr>
+
 ## General Facts
 * The first version of HTML was created in 1992.
 * Since 2008, we are using HTML5.

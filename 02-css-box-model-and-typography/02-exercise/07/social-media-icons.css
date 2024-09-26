@@ -1,0 +1,32 @@
+body {
+    font-family: "Lato", system-ui;
+    padding-left: 30px;
+}
+
+section.icons h1 {
+    font-size: 3em;
+    margin: 50px 0px 20px 0px;
+}
+
+section.icons div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+section.icons div i {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+section.icons a {
+    color: #000;
+    text-decoration: none;
+}
+
+div.background {
+    background-color: #ccc;
+}

@@ -44,10 +44,10 @@ Feel free to explore the material, whether for learning or practicing!
 * defines the width of the element.
 * **by default**, the width sets `the size of the content area` (excluding padding and border).
 * If `box-sizing: border-box;` is applied, **the width includes the padding and border along with the content**, so the total element's width will not exceed the value specified by width.
-* `fixed width` -> pixels / em / rem
+* `fixed width` -> **pixels / em / rem**
 * `relative width`
-    * percentage (relative to the parent's width)
-    * viewport = vh (viewport height) or vw (viewport width): 50vh = 50% of the viewport height = 50% of the height of the user's browser window
+    * **percentage** (relative to the parent's width)
+    * **viewport** = vh (viewport height) or vw (viewport width): 50vh = 50% of the viewport height = 50% of the height of the user's browser window
 * by default, the width will remain 100% and the padding and border will push inwards (if the box has static or relative positioning, and if we haven't declared the width explicitly).
 * if you explicitly set the width of the box to be 100%, the padding will push the box outward.
 * `auto` = autocalculated width = 100%
@@ -110,8 +110,8 @@ can see on a page.
     * `Margin box`: the outermost layer, wrapping the content, padding, border.
 ### Box-sizing
 * sets how the total width and height of an element are calculated.
-* **by default**, it is `content-box` (The Standard CSS Box Model). In this case, padding and borders are added to the content size, which may cause the element to exceed the specified width/height.
-* `border-box` (The Alternative CSS Box Model) ensures that padding and borders are included within the specified width and height of the element, preventing it from exceeding the specified size. **Margins remain outside and are not affected by the box-sizing property.**
+* **by default**, it is `content-box` (**The Standard CSS Box Model**). In this case, padding and borders are added to the content size, which may cause the element to exceed the specified width/height.
+* `border-box` (**The Alternative CSS Box Model**) ensures that padding and borders are included within the specified width and height of the element, preventing it from exceeding the specified size. **Margins remain outside and are not affected by the box-sizing property.**
 * **Universal Box Sizing with Inheritance**
 ```
 html {
@@ -135,7 +135,7 @@ html {
 * `measure` = the number of characters in a single line of a column of text.
 * **satisfactory** length of line = 45 to 75 characters
 * **ideal** = 66-character line (counting both letters and spaces)
-* for multiple column work - 40-50 characters.
+* for **multiple column work** - 40-50 characters.
 * `line-height` = the property which is used to define the space between the lines.
 * `font-family` = a set of fonts, that share common design features.
 * `font-variant: small-caps;` = the lowercase letters are displayed as uppercase letters but at a smaller size than the normal uppercase letters.
@@ -158,11 +158,11 @@ html {
 ### `position: static;`
 * the default state of every element
 * puts the element into its normal position in the document layout flow
-* it will **NOT** react to the following properties: top, bottom, left, right, z-index
+* it will `NOT react` to the following properties: `top, bottom, left, right, z-index`
 
 ### `position: relative;`
 * the element remains in the normal document flow, but its final position can be offset sing the top, bottom, left, right, z-index properties.
-* the space it originally occupies in the layout is preserved, even though the element itself is moved
+* this option can be set to a parent element, if we would like to position a child, according to its parent.
 
 ### `position: absolute;`
 * the element is removed from the normal document flow, and its final position can be modified, using the top, bottom, left, right, z-index properties.
@@ -187,12 +187,62 @@ html {
 * default value: auto, meaning that it is defined by the order in the HTML code.
 * negative values can be used too, and as a result, the target element will be moved behind its siblings
 
-### Additional Insights Gained from Completing the Exercises 
+### Additional Insights Gained from Completing the Lab & Exercises 
 * The `<hr>` tag defines a thematic break in an HTML page (e.g. a shift of topic). It is most often displayed as a horizontal line that is used to separate content.
 * `border-collapse: collapse;` property ensures that borders between cells are shared, when it is applied to the `table` element.
 * `tr:nth-child(even)` targets the even-numbered rows in a table (2nd, 4th, 6th, etc.)
 * `tr:nth-child(odd)` targets the odd-numbered rows in a table (1st, 3rd, 5th, etc.)
-* `type="text/css"` - it's not necessary to include this as an attribute in the `<link>` element in the HTML file, as browsers assume the correct MIME type for CSS by default. 
+* `type="text/css"` - it's not necessary to include this as an attribute to the `<link>` element in the HTML file, as browsers assume the correct MIME type for CSS by default. 
+* `margin: ?px auto` - used for centering an element
+* If we have to add text, which doesn't need to be tracked by the search engines, we can use pseudo elements for the purpose:
+```
+.element-class:before {
+    content: 'padding';
+}
+```
+* If we have rounded corners of a container, and the image that we place inside hides them, we can use: `overflow: hidden;` in the parent container of the image.
+* This is how we can limit the display of some text and finish it with '...':
+```
+display: inline-block;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+max-width: 100%;
+```
+* If we want to use a `custom icon for a details-summary element`:
+```
+<summary class="bold">
+    <i class="fa-solid fa-angle-right"></i> Heading 2       // We shouldn't forget to include a link to the icon in the HTML's head
+</summary>
+
+details summary {
+    list-style: none;     
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+details summary i {
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+details[open] summary i {
+    transform: rotate(90deg);
+}
+```
+* Details have an `open` attribute, that we can make use of for further styling.
+* Icons are considered a 'font', so their parameters can be changed as follows:
+```
+div.icons-container {
+    text-align: center;
+}
+
+div.icons-container i {
+    font-size: 40px;
+    margin-top: 30px;
+}
+```
 
 
 

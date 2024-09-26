@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section.container {
+    height: 60%;
+    border: 2px solid green;
+    padding: 20px 0;
+}
+
+.container .main {
+    margin: 35px auto;
+    width: 70%;
+    height: 85%;
+    border: 2px solid blue;
+}
+
+.container .main header, main, footer {
+    border: 2px solid black;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+}
+    

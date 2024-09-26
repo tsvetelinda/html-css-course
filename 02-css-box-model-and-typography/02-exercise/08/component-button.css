@@ -1,0 +1,48 @@
+body {
+    font-family: "Lato", system-ui;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 14px;
+}
+
+.default-styling a, button {
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0 10px 0 0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+section.list-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+}
+
+section.list-buttons button {
+    cursor: pointer;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: lightyellow;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+i {
+    padding-right: 4px;
+}

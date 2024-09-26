@@ -1,0 +1,42 @@
+body {
+    font-family: "Lato", system-ui;
+}
+
+section.main-section {
+    margin: 20px auto;
+    padding: 0px 250px 0px 250px;
+}
+
+details.accordion {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+details.no-border-bottom {
+    border-bottom: 0;
+}
+
+details summary {
+    list-style: none;     
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+details summary i {
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+details[open] summary i {
+    transform: rotate(90deg);
+}
+
+details[open].no-border-bottom {
+    border-bottom: 0;
+}
+
+.bold {
+    font-weight: bold;
+}

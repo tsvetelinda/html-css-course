@@ -1,0 +1,33 @@
+html, body {
+    font-family: "Lato", system-ui;
+}
+
+body {
+    margin: 20px auto;
+    padding: 0px 350px 0px 350px;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", system-ui;
+}
+
+article.container {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0px 30px 40px 30px;
+    font-size: 0.8em;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+article.container .sub-section {
+    margin-top: 40px;
+}
+
+article.container footer {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
