@@ -1,0 +1,22 @@
+div.flex-container {
+    width: 300px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+
+div.flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+    flex-basis: 300px;
+}
+
+div.flex-shrink-one {
+    flex-shrink: 1;
+}
+
+div.flex-shrink-zero {
+    flex-shrink: 0;
+}

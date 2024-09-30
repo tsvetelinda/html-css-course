@@ -1,0 +1,34 @@
+div.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+div.flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+div.flex-grow-one {
+    flex-grow: 1;
+}
+
+div.flex-grow-second-only {
+    flex-grow: 1;
+}
+
+div.flex-grow-proportional:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+div.flex-grow-proportional:nth-of-type(2) {
+    flex-grow: 2;
+}
+
+div.flex-grow-proportional:nth-of-type(3) {
+    flex-grow: 3;
+}

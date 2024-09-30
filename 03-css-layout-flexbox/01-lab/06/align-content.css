@@ -1,0 +1,35 @@
+div.flex-container {
+    width: 400px;
+    height: 200px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+div.flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+div.align-content-flex-start {
+    align-content: flex-start;
+}
+
+div.align-content-center {
+    align-content: center;
+}
+
+div.align-content-flex-end {
+    align-content: flex-end;
+}
+
+div.align-content-space-between {
+    align-content: space-between;
+}
+
+div.align-content-space-around {
+    align-content: space-around;
+}
