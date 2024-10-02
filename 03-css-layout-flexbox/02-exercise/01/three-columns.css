@@ -1,0 +1,59 @@
+body {
+    background-color: #eee;
+    padding: 20px 200px 120px 200px;
+    font-family: "Lato", system-ui;
+    color: #000;
+}
+
+section.card {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #969696;
+    border-radius: 5px;
+}
+
+header {
+    margin: 0 auto;
+    padding: 10px;
+    width: 35%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+hr {
+    width: 8%;
+    height: 3px;
+    border: 0;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-item {
+    flex-basis: 30%;
+    font-size: 0.9em;
+}
+
+.flex-item h3, p {
+    margin: 0;
+}
+
+footer {
+    padding: 20px 30px 30px 30px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.font-gray {
+    color: #656565;
+}
+
+.italic {
+    font-style: italic;
+}

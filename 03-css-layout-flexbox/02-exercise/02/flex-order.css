@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Lato", system-ui;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section.container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+section.container > header,
+section.container > footer {
+    flex: 0 0 100%;
+}
+
+.box-styling {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.flex-basis-70 {
+    flex-basis: calc(70% - 5px);
+}
+
+.flex-basis-30 {
+    flex-basis: calc(30% - 5px);
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}

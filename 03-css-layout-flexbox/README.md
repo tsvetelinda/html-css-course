@@ -97,3 +97,13 @@ Feel free to explore the material, whether for learning or practicing!
 
 ## Additional Insights Gained from Completing the Lab & Exercises
 * `gap` - adds gap between the flex-items (children of the flex-container). It works top, bottom, left, and right. If we have some margins the `gap` will consider them as the end of the element, and work with the free space between the elements.
+* If we apply `display: flex;` to a container, but we want some elements of it to behave like block elements, we can do it as follows:
+```
+.columns > header, .columns > footer {
+    flex: 0 0 100%;
+}
+```
+It is important to apply: `flex-wrap: wrap;` to the parent container, so the elements do not exceed their dedicated space.
+* It's good practice to place elements in ordered/unordered lists, if it is convenient, since this will produce smarter results by the search engines.
+* `flex: 1 1 auto;` = grow, if there is more space; shrink if there is less space; be as wide as the space provided
+
