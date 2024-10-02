@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="expandable-tree-view.css">
+    <title>Expandable Tree View</title>
+</head>
+<body>
+    <h1>Collapsable & extendable tree view in HTML & CSS only</h1>
+    <ul class="tree">
+        <li class="vertical-line">
+            <input type="checkbox" id="giant-planets">
+            <label for="giant-planets">Giant planets</label>
+            <ul>
+                <li class="vertical-line horizontal-line">
+                    <input type="checkbox" id="gas-giants">
+                    <label for="gas-giants">Gas giants</label>
+                    <ul>
+                        <li class="horizontal-line">Jupiter</li>
+                        <li class="horizontal-line">Saturn</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li class="vertical-line horizontal-line">
+                    <input type="checkbox" id="ice-giants">
+                    <label for="ice-giants">Ice giants</label>
+                    <ul>
+                        <li class="horizontal-line">Uranus</li>
+                        <li class="horizontal-line">Neptune</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

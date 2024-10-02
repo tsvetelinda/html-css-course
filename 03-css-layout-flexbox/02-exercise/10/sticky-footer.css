@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid green;
+    height: 1200px;
+    box-sizing: border-box;
+    padding: 20px 20px 0px 20px;
+    font-family: "Lato", system-ui;
+}
+
+body > * {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+body main {
+    height: 1000px;    
+}
+
+body footer {
+    position: sticky;
+    bottom: 0;
+}
+
+p {
+    font-weight: bold;
+}
