@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+}
+
+.card {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+header > h1 {
+    padding: 20px 30px;
+    color: #009900;
+    font-size: 2em;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+}
+
+nav > ul > li {
+    color: #fff;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.card main {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card .left {
+    flex: 1 1 70%;
+}
+
+.card .right {
+    flex: 1 1 30%;
+}
+
+.card h2,
+.card article p {
+    padding-bottom: 20px;
+    color: #444;
+}
+
+.gray-title {
+    font-size: 1.5em;
+    color: #444;
+    opacity: 80%;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer > p {
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .card ul {
+        display: block;
+        padding: 0;
+
+    }
+    .card li {
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .card main {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 90%;
+    }
+}
+
