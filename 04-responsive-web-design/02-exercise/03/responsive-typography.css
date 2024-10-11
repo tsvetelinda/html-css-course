@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #ccc 1px 1px 0px;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+p, ol, ul {
+    padding-bottom: 1.5rem;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+}
+
+
+ul.square {
+    list-style: square;
+}
+
+ul.circle {
+    list-style: circle;
+}
+
+ul.disc {
+    list-style: disc;
+}
+
+table {
+    width: 100%;
+    margin: 10px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+thead {
+    background-color: #C5C5C5;
+    text-align: left;
+}
+
+th, td {
+    padding: 2px 4px;
+    border: 1px solid #C5C5C5;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #EFEFEF;
+}
+
+tbody td {
+    text-shadow: #ccc 1px 1.5px 0px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #ccc;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+blockquote p.author {
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+}
