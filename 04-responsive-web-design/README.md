@@ -60,3 +60,4 @@ Feel free to explore the material, whether for learning or practicing!
 ## Additional Insights Gained from Completing the Lab & Exercises
 * `<code></code>` - a tag, used for inserting a piece of code in the HTML structure.
 * `<pre></pre>` - a tag, used for preserving white-space; typically used with the `<code>` tag, so it preserves the code structure.
+* We can apply padding directly to the `<a>` element, so that the user can select easily. 
