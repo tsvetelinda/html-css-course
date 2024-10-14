@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 30px 0;
+}
+.code-section {
+    background-color: #eee;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+#getSearchField,
+#postSearchField {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+}
