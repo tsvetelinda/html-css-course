@@ -11,9 +11,7 @@ Feel free to explore the material, whether for learning or practicing!
 <hr>
 
 ## General Facts
-* The first version of HTML was created in 1992.
-* Since 2008, we are using HTML5.
-* You can include literal tags inbetween tags like this: &lt;time&gt; -> `<time>`
+* The first version of HTML was created in 1992, however, since 2008, HTML5 is used.
 
 ## `<header></header>`
 * represents introductory content
@@ -28,7 +26,7 @@ Feel free to explore the material, whether for learning or practicing!
 
 ## `<main></main>`
 * holds the main content of a document
-* helps crawlers (= automated programs or scripts, used by search engines to browse the web and index its content)
+* helps `crawlers` (= automated programs or scripts, used by search engines to browse the web and index its content)
 * there should only be one `<main>` element in a document
 * wrap the most important information in the `<body>`
 
@@ -97,12 +95,14 @@ Feel free to explore the material, whether for learning or practicing!
 
 ### Images `<img>`
 * external files, inserted via the `<img>` tag
-* we are not closing this tag!
+* this is a self-closing tag
 * they have `src`, `alt` attributes (alt = alternative)
 
 ### Ordered Lists `<ol>`
+* a list of ordered elements (`<li>`)
 
 ### Unordered Lists `<ul>`
+* a list of unordered elements (`<li>`)
 * available bullet types are:
     <li type="disc">disc</li>
     <li type="circle">circle</li>
@@ -140,7 +140,7 @@ Feel free to explore the material, whether for learning or practicing!
 ## How to link an HTML file with a CSS file?
 * `<link rel="stylesheet" type="text/css" href="styles.css"`
 * rel = relation
-* Note that there is no closing link tag!
+* This is a self-closing tag
 
 ## CSS Styling
 * `a.login { color: red; }` - only the `<a>` tags with class = 'login' will have this coloring.
@@ -200,7 +200,7 @@ Feel free to explore the material, whether for learning or practicing!
 * `text-overflow` - defines how the hidden text content behaves if it is overflowing
     * ellipsis - the overflowing content is replaced by '...'
 
-* `text=transform` - specifies how to capitalize text
+* `text-transform` - specifies how to capitalize text
     * capitalize - turns the first letter of each word into a capital letter
     * uppercase - turns all characters to uppercase
     * lowercase - turns all characters to lowercase
@@ -213,16 +213,16 @@ Feel free to explore the material, whether for learning or practicing!
     * none
     * {horizontal} {vertical} {blur} {color}
 
-* `color`
+* `color` - defines the text color
 
-* `background-color`
+* `background-color` - defines the background color of the element
 
 * `mouse-cursor` - defines the mouse cursor when hovering the element
     * pointer
     * move
     * none, etc.
 
-* `outline` - surround our element with some styling. Should not be congused with `border`.
+* `outline` - surround our element with some styling. Should not be confused with `border`.
     * `outline-width`
     * `outline-style`
     * `outline-color`
