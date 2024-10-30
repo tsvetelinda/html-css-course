@@ -12,6 +12,10 @@ This course is part of my journey at SoftUni and covers key web development conc
 Each folder corresponds to a specific module or lesson from the course:
 * `01-introduction-to-html-and-css/`: Introduction to HTML structure, elements, and basic tags.
 * `02-css-box-model-and-typography/`: Covers the CSS Box Model, typography, and essential layout concepts.
+* `03-css-layout-flexbox/`: Introduction to CSS Flexbox, including flex container and item properties for creating responsive layouts.
+* `04-responsive-web-design/`: Techniques for responsive design, including media queries, relative units, and mobile-friendly design principles.
+* `05-working-with-forms/`: Building and styling forms with HTML and CSS, covering input types, validation, and accessibility considerations.
+* `06-exam-preparation/`: Contains exercises and solutions for exam preparation, including screenshots of expected results for reference. The screenshots and designs are SoftUni's property, with code solutions provided by me.
 
 ## How to Use This Repository
 Feel free to explore the folders and files for each lesson. You’ll find:
