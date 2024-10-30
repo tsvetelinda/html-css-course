@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    .header-title {
+        padding: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .our-dogs ul {
+        gap: 10px;
+    }
+    
+    .our-dogs ul li {
+        width: calc(50% - 5px);
+    }
+
+    .our-dogs ul li:nth-child(even) {
+        padding-left: 30px;
+    }
+
+    .our-dogs ul li:nth-child(odd) {
+        padding-right: 30px;
+    }
+
+    .our-dogs ul li img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+}
