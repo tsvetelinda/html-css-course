@@ -15,7 +15,9 @@ Each folder corresponds to a specific module or lesson from the course:
 * `03-css-layout-flexbox/`: Introduction to CSS Flexbox, including flex container and item properties for creating responsive layouts.
 * `04-responsive-web-design/`: Techniques for responsive design, including media queries, relative units, and mobile-friendly design principles.
 * `05-working-with-forms/`: Building and styling forms with HTML and CSS, covering input types, validation, and accessibility considerations.
-* `06-exam-preparation/`: Contains exercises and solutions for exam preparation, including screenshots of expected results for reference. The screenshots and designs are SoftUni's property, with code solutions provided by me.
+* `06-exam-preparation/`: Contains exercises and solutions for exam preparation, including screenshots of expected results for reference.
+* `07-workshop-softuni-page`: Contains a workshop exercise for page recreation, based on a single screenshot - namely, the SoftUni Creative page.
+* `08-workshop-netflix`: Contains a workshop exercise for page recreation, based on a single screenshot - namely, the Netflix Home page.
 
 ## How to Use This Repository
 Feel free to explore the folders and files for each lesson. You’ll find:
