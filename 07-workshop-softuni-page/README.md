@@ -1,6 +1,6 @@
 # Workshop - Build a Static Website - SoftUni Creative
 
-The exercise is part of a workshop aimed at strengthening HTML and CSS skills. The screenshot and image resources were provided by SoftUn. <br>
+The exercise is part of a workshop aimed at strengthening HTML and CSS skills. The screenshot and image resources were provided by SoftUni. <br>
 My task was to develop the HTML and CSS from scratch, using the screenshot as a visual guide to recreate the static page layout.
 
 ## The folder includes:
