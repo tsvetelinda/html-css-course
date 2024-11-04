@@ -18,6 +18,7 @@ Each folder corresponds to a specific module or lesson from the course:
 * `06-exam-preparation/`: Contains exercises and solutions for exam preparation, including screenshots of expected results for reference.
 * `07-workshop-softuni-page`: Contains a workshop exercise for page recreation, based on a single screenshot - namely, the SoftUni Creative page.
 * `08-workshop-netflix`: Contains a workshop exercise for page recreation, based on a single screenshot - namely, the Netflix Home page.
+* `09-final-exam`: Contains the three final exam tasks, and the solutions to them.
 
 ## How to Use This Repository
 Feel free to explore the folders and files for each lesson. You’ll find:
